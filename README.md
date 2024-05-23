@@ -11,5 +11,5 @@ Time-Series Database: InfluxDB is used to store the collected temperature data.
 Sender: Triggered by Crontab, retrieves a list of switches from MariaDB and writes collection tasks to RabbitMQ.
 Receiver: Consumes tasks from RabbitMQ, retrieves temperature data from switches, and writes the data to InfluxDB.
 
-#Contributing
+# Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
