@@ -2,7 +2,6 @@ import mysql.connector
 import pika
 import json
 
-# Database configuration
 db_config = {
     'user': 'tamim',
     'password': '22585933',
@@ -10,7 +9,6 @@ db_config = {
     'database': 'switch_db'
 }
 
-# RabbitMQ configuration
 rabbitmq_host = 'localhost'
 task_queue = 'task_queue'
 

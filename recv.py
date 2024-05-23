@@ -13,7 +13,6 @@ influxdb_org = "ppu"
 influxdb_bucket = "project1"
 
 def get_temperature(ip_address):
-    # Simulate temperature retrieval, replace with actual implementation
     print(f"Retrieving temperature for IP: {ip_address}")
     return 25.0 + (hash(ip_address) % 10)
 
